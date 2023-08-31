@@ -79,7 +79,7 @@ const getCurrentPost = (id) => {
     margin: 0 0 15px;
   }
   &__btn {
-    margin: auto 0 0;
+    // margin: auto 0 0;
     width: fit-content;
   }
 }

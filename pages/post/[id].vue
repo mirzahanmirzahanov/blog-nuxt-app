@@ -51,16 +51,25 @@ getCurrentPost(route.params.id);
   &__title {
     font-size: 35px;
     margin: 0 0 30px;
+    @media (max-width: 768px) {
+      font-size: 20px;
+    }
   }
 
   &__author {
     font-size: 18px;
     margin: 0 0 20px;
+    @media (max-width: 768px) {
+      font-size: 16px;
+    }
     color: $textColorLight;
   }
 
   &__text {
     font-size: 22px;
+    @media (max-width: 768px) {
+      font-size: 18px;
+    }
   }
 }
 </style>

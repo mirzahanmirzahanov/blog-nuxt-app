@@ -18,7 +18,6 @@ export const usePostsStore = defineStore('postsStore', () => {
 		})
 	}
 
-
 	return {
 		posts,
 		currentPost,
