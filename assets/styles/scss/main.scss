@@ -15,16 +15,20 @@ body,
 #__nuxt {
 	height: 100%;
 	font-family: "Lato", sans-serif, -apple-system;
-	background: var(--bg-color);
+	background: $bgColor;
 }
 
+h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
-	color: var(--text-color);
+h6,
+p {
+	color: $textColor;
 	font-weight: 400;
+	font-size: 16px;
+	word-wrap: break-word;
 }
 
 
@@ -54,10 +58,13 @@ li {
 	min-height: 100%;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 }
 
 .main {
 	width: 100%;
 	flex: 1 1 auto;
+}
+
+.title {
+	font-size: 20px;
 }

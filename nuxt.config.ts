@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  // ssr: false,
   devtools: { enabled: true },
   components: [
     {
@@ -16,4 +17,5 @@ export default defineNuxtConfig({
     },
   },
   css: ["~/assets/styles/scss/main.scss"],
+  modules: ["@pinia/nuxt", "@pinia-plugin-persistedstate/nuxt"],
 });
